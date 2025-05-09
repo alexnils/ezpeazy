@@ -1,0 +1,24 @@
+#pragma once
+
+#ifdef AUDIO_ENABLE
+#define STARTUP_SONG SONG(PLANCK_SOUND)
+#endif
+
+#define MIDI_BASIC
+
+#define ENCODER_RESOLUTION 4
+
+#undef DEBOUNCE
+#define DEBOUNCE 5
+
+#undef ONESHOT_TIMEOUT
+#define ONESHOT_TIMEOUT 8000
+
+#define COMBO_TERM 10
+
+#define USB_SUSPEND_WAKEUP_DELAY 0
+#define SERIAL_NUMBER "EaVeZ/QzXQPB"
+#define LAYER_STATE_8BIT
+
+#define RGB_MATRIX_STARTUP_SPD 60
+
