@@ -130,37 +130,37 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   switch (keycode) {
     case ST_MACRO_0:
     if (record->event.pressed) {
-      SEND_STRING(SS_TAP(X_CAPS)SS_DELAY(100)  SS_TAP(X_A)SS_DELAY(100)  SS_TAP(X_A));
+      SEND_STRING(SS_TAP(X_CAPS) SS_TAP(X_A) SS_TAP(X_A));
     }
     break;
     case ST_MACRO_1:
     if (record->event.pressed) {
-      SEND_STRING(SS_TAP(X_CAPS)SS_DELAY(100)  SS_LSFT(SS_TAP(X_Q))SS_DELAY(100)  SS_TAP(X_A));
+      SEND_STRING(SS_TAP(X_CAPS) SS_LSFT(SS_TAP(X_Q)) SS_TAP(X_A));
     }
     break;
     case ST_MACRO_2:
     if (record->event.pressed) {
-      SEND_STRING(SS_TAP(X_CAPS)SS_DELAY(100)  SS_LSFT(SS_TAP(X_Q))SS_DELAY(100)  SS_TAP(X_S));
+      SEND_STRING(SS_TAP(X_CAPS) SS_LSFT(SS_TAP(X_Q)) SS_TAP(X_S));
     }
     break;
     case ST_MACRO_3:
     if (record->event.pressed) {
-      SEND_STRING(SS_TAP(X_CAPS)SS_DELAY(100)  SS_LSFT(SS_TAP(X_Q))SS_DELAY(100)  SS_TAP(X_F));
+      SEND_STRING(SS_TAP(X_CAPS) SS_LSFT(SS_TAP(X_Q)) SS_TAP(X_F));
     }
     break;
     case ST_MACRO_4:
     if (record->event.pressed) {
-      SEND_STRING(SS_LALT(SS_TAP(X_F))SS_DELAY(100)  SS_LSFT(SS_TAP(X_A)));
+      SEND_STRING(SS_LALT(SS_TAP(X_F)) SS_LSFT(SS_TAP(X_A)));
     }
     break;
     case ST_MACRO_5:
     if (record->event.pressed) {
-      SEND_STRING(SS_LALT(SS_TAP(X_F))SS_DELAY(100)  SS_LSFT(SS_TAP(X_S)));
+      SEND_STRING(SS_LALT(SS_TAP(X_F)) SS_LSFT(SS_TAP(X_S)));
     }
     break;
     case ST_MACRO_6:
     if (record->event.pressed) {
-      SEND_STRING(SS_LALT(SS_TAP(X_F))SS_DELAY(100)  SS_LSFT(SS_TAP(X_F)));
+      SEND_STRING(SS_LALT(SS_TAP(X_F)) SS_LSFT(SS_TAP(X_F)));
     }
     break;
 
